@@ -1,6 +1,9 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-image: url(photo/abstract\ 12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -11,14 +14,20 @@ h1{
 h2{
     font-size: 40px;
 }
+
+#p-color{
+    color: black;
+}
 .orange-color{
     color: orange;
 }
 
 #side{
+
     padding-left: 10px;
     padding-right: 10px;
 }
+
 
 .flexible-container{
     display: flex;
@@ -26,15 +35,20 @@ h2{
 }
 
 .half-width{
-    width: 30%;
+    color: white;
+    width: 50%;
     margin-left: 5%;
     padding: 10px;
+    
 }
 
 .half-width img{
     width: 100%;
     margin-left: 5%;
     border-radius: 10px;
+}
+
+
 }
 
 .link-button{
@@ -47,6 +61,7 @@ h2{
 }
 
 .top-banner{
+    opacity: 80%;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
